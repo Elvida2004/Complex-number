@@ -10,7 +10,7 @@ public class Complex {
     private double x;
     private double y;
 
-    // Метод str возвращает комплексное число в качестве строки (“5+3i”)
+    // Метод str возвращает комплексное число в качестве строки (“5+3i”).
     public String str() {
         return x + "+" + y + "i";
     }
