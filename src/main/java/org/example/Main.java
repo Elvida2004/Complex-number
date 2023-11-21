@@ -8,11 +8,11 @@ public class Main {
         Complex z1 = new Complex(5, 3);
         Complex z2 = new Complex(2, 1);
 
-
+// Выводим их на экран
         System.out.println("z1 = " + z1.str());
         System.out.println("z2 = " + z2.str());
 
-
+// Выполняем операции
 
         Complex z_sum = z1.add(z2);
         Complex z_diff = z1.sub(z2);
@@ -21,7 +21,7 @@ public class Main {
         double z_mod = z1.modulus();
         boolean z_eq = z1.is_equal(z2);
 
-
+// Выводим результаты
 
         System.out.println("z1 + z2 = " + z_sum.str());
         System.out.println("z1 - z2 = " + z_diff.str());
